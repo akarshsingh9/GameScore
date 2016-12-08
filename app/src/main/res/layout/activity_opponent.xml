@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ef5350">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Opponent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/opponent"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="pakistan"
+        android:gravity="center"
+        android:background="#1b5e20"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_margin="12dp"
+        android:padding="14dp"
+        android:id="@+id/pak"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:gravity="center"
+        android:background="#2196f3"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_margin="12dp"
+        android:padding="14dp"
+        android:id="@+id/ind" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="new zealand"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_margin="12dp"
+        android:padding="14dp"
+        android:id="@+id/nz" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="australia"
+        android:gravity="center"
+        android:background="#ffab00"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_margin="12dp"
+        android:padding="14dp"
+        android:id="@+id/ausi" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="sri lanka"
+        android:gravity="center"
+        android:background="#3949ab"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_margin="12dp"
+        android:padding="14dp"
+        android:id="@+id/sl"/>
+
+
+
+</LinearLayout>
